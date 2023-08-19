@@ -4,28 +4,47 @@ const TypeInterface = () => {
 
     // Type interface
 
-    interface Teacher {
+    interface Iteacher {
         name: string,
         age: number,
         address: string;
     }
-    const sumon:Teacher = {
+    const sumon: Iteacher = {
         name: "sumon khan",
         age: 32,
         address: "dhaka"
     }
 
     // optional Interface
-    interface Teacher {
+    interface Iteacher2 {
         name: string,
         age: number,
-        address: string;
+        address?: string;
     }
-    const Miraz:Teacher = {
+    const Miraz: Iteacher2 = {
         name: "sumon khan",
         age: 32,
         address: "dhaka"
     }
+
+    // extend Interface
+    interface IDoctor {
+        name: string,
+        age: number,
+    }
+
+    interface IDoctor2 extends IDoctor {
+        address: string,
+    }
+
+    const Imran: IDoctor2 = {
+        name: "imran khan",
+        age: 55,
+        address: "Dhaka Bangladesh"
+
+    }
+
+
 
     return (
         <div>TypeInterface</div>
