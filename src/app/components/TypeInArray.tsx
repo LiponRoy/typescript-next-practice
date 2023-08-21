@@ -7,6 +7,9 @@ const TypeInArray = () => {
 
   const arr2: string[] = ["baker", "rubel"];
 
+  // using tuple ( eikhane order maintain korte hoy)
+  const arrTuple:[number,string,boolean] = [12,"rubel",true];
+
   // multiple way
   const arr3: (number | string | boolean)[] = [12, 13, 14, true, "rubel"];
 

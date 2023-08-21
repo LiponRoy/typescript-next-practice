@@ -62,6 +62,24 @@ const TypeInFunction = () => {
 
 
 
+  // use Interface
+
+  interface Doctor{
+    age:number,
+    dob:number
+  }
+  // eikhane ensure kora je ei function er paramiter obossoi Doctor interface er moto hote hobe
+  const withInterface = (value:Doctor): void => {
+    console.log(value.age , value.dob)
+  }
+
+  const Ismail:Doctor ={
+    age:33,
+    dob:1990
+  }
+// so call korar somoy Doctor type er object e send korte hobe
+  withInterface(Ismail);
+
 
 
 

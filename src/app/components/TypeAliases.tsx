@@ -2,8 +2,15 @@ import React from 'react'
 
 const TypeAliases = () => {
 
-    // Type Aliases
+    // Simple Type Aliases
 
+    type StringOrNumber = string | number
+    type StringOrNumberArray = (string | number)[]
+
+    const name:StringOrNumber="Rubel"
+    const nameArray:StringOrNumberArray=["mamun", 22,"good"]
+
+    // Type Aliases use Objet
     type teacher={
         name:string,
         age:number,
