@@ -13,7 +13,7 @@ const useStateTypeSimple = () => {
     name: string;
     age: number;
   }
-  
+
   // if IPerson not found then null
   const [Val, setVal] = useState<IPerson | null>(null);
 
