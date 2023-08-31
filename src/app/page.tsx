@@ -1,6 +1,8 @@
-
+import React from 'react'
 import HomeButton from './components/reusable/buttons/HomeButton';
 import InputHome from './components/reusable/inputs/InputHome';
+import ModalHome from './components/reusable/antdModal/ModalHome';
+import SelectHome from './components/reusable/antdSelect/SelectHome';
 
 export default function Home() {
 
@@ -9,7 +11,9 @@ export default function Home() {
 
      {/* <HomeButton></HomeButton> */}
      <br></br>
-     <InputHome></InputHome>
+     {/* <InputHome></InputHome> */}
+     {/* <ModalHome></ModalHome> */}
+     <SelectHome></SelectHome>
     </div>
 
     
