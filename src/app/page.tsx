@@ -12,8 +12,8 @@ export default function Home() {
      {/* <HomeButton></HomeButton> */}
      <br></br>
      {/* <InputHome></InputHome> */}
-     {/* <ModalHome></ModalHome> */}
-     <SelectHome></SelectHome>
+     <ModalHome></ModalHome>
+     {/* <SelectHome></SelectHome> */}
     </div>
 
     
