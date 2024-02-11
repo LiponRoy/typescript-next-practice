@@ -3,7 +3,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import { CgProfile } from "react-icons/cg";
 import ProfileMenu from "./ProfileMenu";
-import Overlay from "./overlay";
+import Overlay from "./Overlay";
 const Navbar = () => {
   const [openProfile, setOpenProfile] = useState(false);
 
