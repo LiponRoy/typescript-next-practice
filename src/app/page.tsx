@@ -7,6 +7,7 @@ import GetData_Fetch from './components/fetch-for-typescript/GetData_Fetch';
 import Axios_use from './components/fetch-for-typescript/Axios_use';
 import Get_AdvanceWay from './components/fetch-for-typescript/Get_AdvanceWay';
 import JsonDataAdvance_typescript from './components/fetch-for-typescript/JsonDataAdvance_typescript';
+import SingleDataFetch from './components/fetch-for-typescript/SingleDataFetch';
 
 export default function Home() {
 
@@ -21,7 +22,8 @@ export default function Home() {
      {/* <GetData_Fetch/> */}
      {/* <Axios_use/> */}
      {/* <Get_AdvanceWay/> */}
-     <JsonDataAdvance_typescript/>
+     {/* <JsonDataAdvance_typescript/> */}
+     <SingleDataFetch/>
     </div>
 
     
