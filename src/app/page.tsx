@@ -8,6 +8,9 @@ import Axios_use from './components/fetch-for-typescript/Axios_use';
 import Get_AdvanceWay from './components/fetch-for-typescript/Get_AdvanceWay';
 import JsonDataAdvance_typescript from './components/fetch-for-typescript/JsonDataAdvance_typescript';
 import SingleDataFetch from './components/fetch-for-typescript/SingleDataFetch';
+import PropsType from './components/propsType/PropsType';
+import SimpleForm from './components/loginFornTypescript/SimpleForm';
+import FormCustomHook from './components/loginFornTypescript/FormCustomHook';
 
 export default function Home() {
 
@@ -23,7 +26,12 @@ export default function Home() {
      {/* <Axios_use/> */}
      {/* <Get_AdvanceWay/> */}
      {/* <JsonDataAdvance_typescript/> */}
-     <SingleDataFetch/>
+     {/* <SingleDataFetch/> */}
+     {/* <Test/> */}
+     {/* <Get_AdvanceWay/> */}
+     {/* <PropsType name="Kajol" age={50}/> */}
+     {/* <SimpleForm/> */}
+     <FormCustomHook/>
     </div>
 
     
