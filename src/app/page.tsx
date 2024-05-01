@@ -11,29 +11,31 @@ import SingleDataFetch from './components/fetch-for-typescript/SingleDataFetch';
 import PropsType from './components/propsType/PropsType';
 import SimpleForm from './components/loginFornTypescript/SimpleForm';
 import FormCustomHook from './components/loginFornTypescript/FormCustomHook';
+import MyClildren from './components/children-type/MyClildren';
 
 export default function Home() {
 
   return (
     <div className=" h-screen w-full  flex justify-center items-center">
 
-     {/* <HomeButton></HomeButton> */}
-     <br></br>
-     {/* <InputHome></InputHome> */}
-     {/* <ModalHome></ModalHome> */}
-     {/* <SelectHome></SelectHome> */}
-     {/* <GetData_Fetch/> */}
-     {/* <Axios_use/> */}
-     {/* <Get_AdvanceWay/> */}
-     {/* <JsonDataAdvance_typescript/> */}
-     {/* <SingleDataFetch/> */}
-     {/* <Test/> */}
-     {/* <Get_AdvanceWay/> */}
-     {/* <PropsType name="Kajol" age={50}/> */}
-     {/* <SimpleForm/> */}
-     <FormCustomHook/>
+      {/* <HomeButton></HomeButton> */}
+      <br></br>
+      {/* <InputHome></InputHome> */}
+      {/* <ModalHome></ModalHome> */}
+      {/* <SelectHome></SelectHome> */}
+      {/* <GetData_Fetch/> */}
+      {/* <Axios_use/> */}
+      {/* <Get_AdvanceWay/> */}
+      {/* <JsonDataAdvance_typescript/> */}
+      {/* <SingleDataFetch/> */}
+      {/* <Test/> */}
+      {/* <Get_AdvanceWay/> */}
+      {/* <PropsType name="Kajol" age={50}/> */}
+      {/* <SimpleForm/> */}
+      {/* <FormCustomHook /> */}
+      <MyClildren />
     </div>
 
-    
+
   )
 }
