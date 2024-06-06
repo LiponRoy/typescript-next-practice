@@ -2,12 +2,31 @@ import React from 'react'
 
 const GenericFunction = () => {
 
-    const myFunc = <T,X>(a: T, b: X):[T,X] => {
-        return [a,b];
+    const myFunc = <T extends IObj,>(a: T):T => {
+        return a;
     }
 
-    myFunc(5,6);
-    myFunc("bangla","english");
+
+    type IObj={
+        name:string,
+        age:number
+    }
+
+    const myObj:IObj={
+        name:"Srila Jaman",
+        age:29
+    }
+
+
+    // const myObj2={
+    //     name:"Srila Jaman",
+    //     role:"Admin"
+    // }
+
+    
+
+
+    myFunc<IObj>(myObj);
 
 
 

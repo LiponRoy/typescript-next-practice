@@ -11,6 +11,7 @@ import SingleDataFetch from './components/fetch-for-typescript/SingleDataFetch';
 import PropsType from './components/propsType/PropsType';
 import SimpleForm from './components/loginFornTypescript/SimpleForm';
 import FormCustomHook from './components/loginFornTypescript/FormCustomHook';
+import FunctionT_advance from './components/advanceTypescript/FunctionT_advance';
 
 export default function Home() {
 
@@ -31,7 +32,8 @@ export default function Home() {
      {/* <Get_AdvanceWay/> */}
      {/* <PropsType name="Kajol" age={50}/> */}
      {/* <SimpleForm/> */}
-     <FormCustomHook/>
+     {/* <FormCustomHook/> */}
+     <FunctionT_advance/>
     </div>
 
     

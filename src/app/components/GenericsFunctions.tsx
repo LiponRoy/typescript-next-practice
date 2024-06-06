@@ -7,8 +7,20 @@ const GenericsFunctions = () => {
     return value;
   };
 
+  interface IObj{
+    name:string,
+    age:number
+}
+
+const myObj:IObj={
+    name:"Srila Jaman",
+    age:29
+}
+
   const numArray = muFunc<number>(50);
   const numArray2 = muFunc<string>("Bangladesh");
+  // passing object with type
+  const withObj = muFunc<IObj>(myObj);
 
   // with two paramiter
 
